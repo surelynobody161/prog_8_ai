@@ -1,0 +1,23 @@
+{
+    "name": "prog-8-ai",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "client": "vite",
+        "build": "vite build",
+        "server": "node --env-file=server/.env --watch server/server.js"
+    },
+    "dependencies": {
+        "@azure/openai": "^0.6.0",
+        "@azure/identity": "^2.0.0",
+        "@langchain/core": "^0.3.48",
+        "@langchain/openai": "^0.5.7",
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "langchain": "^0.3.24"
+    },
+    "devDependencies": {
+        "vite": "^6.3.3"
+    }
+}
